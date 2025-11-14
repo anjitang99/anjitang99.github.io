@@ -29,6 +29,13 @@ url: "https://anjitang99.github.io" # the base hostname & protocol for your site
 twitter_username:
 github_username: anjitang99
 
+# Author settings
+author:
+  name: 박도언
+  bio: 수협은행 투자금융부 | 부동산 투자, Fintech, iOS 개발에 관심이 많습니다
+  email: contact@doeon.blog
+  location: Seoul, Korea
+
 # Build settings
 theme: minima
 plugins:

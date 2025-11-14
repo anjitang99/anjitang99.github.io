@@ -280,3 +280,187 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
   }
 }
+
+// 사이드바 레이아웃
+.content-with-sidebar {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.main-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.sidebar {
+  width: 300px;
+  flex-shrink: 0;
+}
+
+// 프로필 카드
+.profile-card {
+  background: white;
+  border: 1px solid $border-color;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 1.5rem;
+
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid $primary-color;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  h3 {
+    margin: 0.5rem 0;
+    font-size: 1.3rem;
+    color: $primary-color;
+  }
+
+  .profile-bio {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.6;
+    margin: 0.5rem 0 1rem;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+
+    a {
+      font-size: 1.5rem;
+      opacity: 0.7;
+      transition: opacity 0.2s;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+// 사이드바 섹션
+.sidebar-section {
+  background: white;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+
+  h4 {
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+    color: $primary-color;
+    border-bottom: 2px solid $primary-color;
+    padding-bottom: 0.5rem;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin-bottom: 0.75rem;
+      padding-left: 0;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      a {
+        color: $dark-gray;
+        text-decoration: none;
+        transition: color 0.2s;
+
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+.category-list {
+  .count {
+    color: #999;
+    font-size: 0.85rem;
+  }
+}
+
+.recent-posts {
+  .post-date {
+    display: block;
+    font-size: 0.75rem;
+    color: #999;
+    margin-top: 0.25rem;
+  }
+}
+
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  .tag {
+    display: inline-block;
+    background-color: $light-gray;
+    color: $primary-color;
+    padding: 0.35rem 0.75rem;
+    border-radius: 16px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border: 1px solid $border-color;
+    transition: all 0.2s;
+
+    &:hover {
+      background-color: $primary-color;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}
+
+// 카테고리 배지
+.category-badge {
+  display: inline-block;
+  background-color: $accent-color;
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-left: 0.25rem;
+}
+
+// 반응형: 모바일에서는 사이드바를 아래로
+@media screen and (max-width: 800px) {
+  .content-with-sidebar {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    order: 2;
+  }
+
+  .main-content {
+    order: 1;
+  }
+}
