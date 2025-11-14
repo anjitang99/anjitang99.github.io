@@ -1,0 +1,285 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+// 한글 폰트 추가
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif+KR:wght@400;700&display=swap');
+
+// 커스텀 변수
+$primary-color: #2c5aa0;
+$accent-color: #4a90e2;
+$dark-gray: #333;
+$light-gray: #f8f9fa;
+$border-color: #e1e4e8;
+
+// 기본 폰트 설정
+body {
+  font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: $dark-gray;
+}
+
+// 제목 폰트
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Serif KR', 'Noto Sans KR', serif;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: $primary-color;
+}
+
+// 헤더 스타일링
+.site-header {
+  border-top: 5px solid $primary-color;
+  border-bottom: 1px solid $border-color;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.site-title {
+  font-family: 'Noto Serif KR', serif;
+  font-size: 28px !important;
+  font-weight: 700 !important;
+  color: $primary-color !important;
+
+  &:hover {
+    text-decoration: none;
+    opacity: 0.8;
+  }
+}
+
+// 네비게이션
+.site-nav {
+  .page-link {
+    color: $dark-gray;
+    font-weight: 500;
+
+    &:hover {
+      color: $primary-color;
+      text-decoration: none;
+    }
+  }
+}
+
+// 메인 컨텐츠
+.page-content {
+  padding: 3rem 0;
+  background-color: #fff;
+}
+
+// 포스트 목록
+.post-list {
+  .post-link {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: $primary-color;
+    transition: color 0.2s;
+
+    &:hover {
+      color: $accent-color;
+      text-decoration: none;
+    }
+  }
+
+  .post-meta {
+    color: #828282;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+
+  li {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid $border-color;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+// 포스트 내용
+.post-content {
+  font-size: 1.05rem;
+  line-height: 1.9;
+
+  h2 {
+    margin-top: 2.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid $primary-color;
+  }
+
+  h3 {
+    margin-top: 2rem;
+    color: $accent-color;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+  }
+
+  code {
+    background-color: $light-gray;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+
+  pre {
+    background-color: $light-gray;
+    border: 1px solid $border-color;
+    border-radius: 5px;
+    padding: 1rem;
+    overflow-x: auto;
+
+    code {
+      background-color: transparent;
+      padding: 0;
+    }
+  }
+
+  blockquote {
+    border-left: 4px solid $primary-color;
+    background-color: $light-gray;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin: 1.5rem 0;
+  }
+
+  a {
+    color: $accent-color;
+    text-decoration: underline;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+// 포스트 헤더
+.post-header {
+  margin-bottom: 2rem;
+
+  .post-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+// 푸터
+.site-footer {
+  background-color: $light-gray;
+  border-top: 1px solid $border-color;
+  padding: 2rem 0;
+
+  .footer-heading {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: $primary-color;
+  }
+}
+
+// 홈페이지 인사말 스타일
+.home {
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: $primary-color;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid $primary-color;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    color: $accent-color;
+  }
+
+  ul {
+    line-height: 2;
+  }
+
+  img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    margin: 1rem 0;
+  }
+}
+
+// 반응형 디자인
+@media screen and (max-width: 600px) {
+  .site-title {
+    font-size: 24px !important;
+  }
+
+  .post-content {
+    font-size: 1rem;
+
+    .post-title {
+      font-size: 2rem;
+    }
+  }
+
+  .home h1 {
+    font-size: 2rem;
+  }
+}
+
+// 링크 카드 스타일
+.link-card {
+  background-color: $light-gray;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  transition: box-shadow 0.3s;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+}
+
+// 배지 스타일
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 12px;
+  background-color: $primary-color;
+  color: white;
+  margin-right: 0.5rem;
+}
+
+// 하이라이트 박스
+.highlight-box {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+
+  h3 {
+    color: white;
+    margin-top: 0;
+  }
+}
