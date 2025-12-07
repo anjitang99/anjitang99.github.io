@@ -14,14 +14,29 @@
               "type": "markdown",
               "state": {
                 "file": "2025-12-06-arc-vs-gc.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "2025-12-06-arc-vs-gc"
             }
+          },
+          {
+            "id": "ee208b10cda648ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025-12-07-SwiftUI-intro.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2025-12-07-SwiftUI-intro"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025-12-06-arc-vs-gc.md",
+                "file": "2025-12-07-SwiftUI-intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-12-06-arc-vs-gc 의 백링크"
+              "title": "2025-12-07-SwiftUI-intro 의 백링크"
             }
           },
           {
@@ -113,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025-12-06-arc-vs-gc.md",
+                "file": "2025-12-07-SwiftUI-intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-12-06-arc-vs-gc 의 나가는 링크"
+              "title": "2025-12-07-SwiftUI-intro 의 나가는 링크"
             }
           },
           {
@@ -156,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-12-06-arc-vs-gc.md",
+                "file": "2025-12-07-SwiftUI-intro.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-12-06-arc-vs-gc 의 개요"
+              "title": "2025-12-07-SwiftUI-intro 의 개요"
             }
           }
         ]
@@ -183,8 +198,11 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "c27fac32f553505a",
+  "active": "ee208b10cda648ab",
   "lastOpenFiles": [
+    "Pasted image 20251207173925.png",
+    "2025-12-06-arc-vs-gc.md",
+    "2025-12-07-SwiftUI-intro.md",
     "2025-11-15-hello-world.md"
   ]
 }
