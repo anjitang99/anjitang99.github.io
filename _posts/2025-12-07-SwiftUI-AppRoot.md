@@ -1,5 +1,5 @@
 ---
-title: Commit no.1 - App root
+title: 1.OnboardingView 구조잡기
 date: 2025-12-07 17:00:00 +0900
 categories:
   - iOS
