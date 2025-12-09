@@ -6,7 +6,8 @@ categories:
   - SwiftUI
 tags:
   - SwiftUI
-  - @Environment
+  - Environment
+  - StateManagement
 pin: false
 ---
 
