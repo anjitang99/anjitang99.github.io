@@ -1,5 +1,5 @@
 ---
-title: 3. AppState 아키텍처 - 앱 전역 상태 관리 설계
+title: 3.AppState 아키텍처 - 앱 전역 상태 관리 설계
 date: 2025-12-09 23:00:00 +0900
 categories:
   - iOS
