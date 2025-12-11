@@ -1,0 +1,14 @@
+[debug] [2025-12-10T23:07:18.966Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-10T23:07:18.968Z] > authorizing via signed-in user (e-biz@kfcc.co.kr)
+[debug] [2025-12-10T23:07:18.968Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-10T23:07:18.968Z] > authorizing via signed-in user (e-biz@kfcc.co.kr)
+[debug] [2025-12-10T23:07:18.976Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-10T23:07:18.976Z] > authorizing via signed-in user (e-biz@kfcc.co.kr)
+[debug] [2025-12-10T23:07:19.254Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-10T23:07:19.254Z] > authorizing via signed-in user (e-biz@kfcc.co.kr)
+[debug] [2025-12-10T23:07:19.255Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-10T23:07:19.255Z] > authorizing via signed-in user (e-biz@kfcc.co.kr)
+[debug] [2025-12-10T23:07:19.257Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-10T23:07:19.257Z] > authorizing via signed-in user (e-biz@kfcc.co.kr)
+[debug] [2025-12-10T23:07:19.257Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-10T23:07:19.258Z] > authorizing via signed-in user (e-biz@kfcc.co.kr)

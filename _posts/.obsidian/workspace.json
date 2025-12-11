@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-12-09-appstate-architecture.md",
+                "file": "2025-12-11-swiftui-nonmutating-property-wrapper.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-09-appstate-architecture"
+              "title": "2025-12-11-swiftui-nonmutating-property-wrapper"
             }
           }
         ],
@@ -59,7 +59,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
+              "title": "Files"
             }
           },
           {
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:PropertyWrapper",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "검색"
+              "title": "Search"
             }
           },
           {
@@ -89,7 +89,8 @@
               "title": "북마크"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -189,23 +190,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:빠른 전환기 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 일일 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "bases:새 베이스 생성하기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "ee208b10cda648ab",
+  "active": "9810108dbe8decc2",
   "lastOpenFiles": [
-    "2025-12-07-SwiftUI-AppRoot.md",
     "2025-12-09-appstate-architecture.md",
+    "2025-11-15-hello-world.md",
+    "2025-12-07-SwiftUI-AppRoot.md",
     "2025-12-07-SwiftUI-intro.md",
     "2025-12-07-declarative-programming.md",
     "2025-12-06-arc-vs-gc.md",
-    "Pasted image 20251207173925.png",
-    "2025-11-15-hello-world.md"
+    "Pasted image 20251207173925.png"
   ]
 }
