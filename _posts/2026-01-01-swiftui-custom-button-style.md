@@ -143,7 +143,7 @@ struct PressableButtonStyle: ButtonStyle {
 
 ## 편리한 사용을 위한 View Extension
 
-매번 `.buttonStyle(HighlightButtonStyle())`를 작성하는 것도 번거롭습니다. View Extension으로 더 편리하게 만들어보자.
+매번 `.buttonStyle(HighlightButtonStyle())`를 작성하는 것도 번거롭다. View Extension으로 더 편리하게 만들어보자.
 
 ### ButtonStyleOption Enum
 
@@ -330,7 +330,7 @@ button.render();  // 출력: >> [Click Me] <<
 
 ### SwiftUI ButtonStyle과의 연결
 
-SwiftUI의 ButtonStyle도 동일한 패턴입니다:
+SwiftUI의 ButtonStyle도 동일한 패턴:
 
 ```swift
 // 전략 1: Plain
