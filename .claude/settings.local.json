@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/jihoonan/Desktop/AIChatCource log b9341debb6a967256afd99cdeddcdd5b2fd4c3eb^..HEAD --oneline)",
+      "Bash(git -C /Users/jihoonan/Desktop/AIChatCource log b9341debb6a967256afd99cdeddcdd5b2fd4c3eb^..HEAD --stat)",
+      "Bash(git -C /Users/jihoonan/Desktop/AIChatCource diff b9341debb6a967256afd99cdeddcdd5b2fd4c3eb^..HEAD --stat | tail -5)",
+      "Bash(git -C /Users/jihoonan/Desktop/AIChatCource log b9341debb6a967256afd99cdeddcdd5b2fd4c3eb~1 --oneline -5)",
+      "Bash(git -C /Users/jihoonan/Desktop/AIChatCource show a8b31af:AIChatCourse/Core/Explore/ExploreViewModel.swift 2>/dev/null | head -80)",
+      "Bash(git -C /Users/jihoonan/Desktop/AIChatCource log --oneline b9341de~10..b9341de~1)",
+      "Bash(git -C /Users/jihoonan/Desktop/AIChatCource show 378e0cd:AIChatCourse/Core/Explore/ExploreViewModel.swift 2>/dev/null | head -80)",
+      "Bash(git -C /Users/jihoonan/Desktop/AIChatCource show 378e0cd:AIChatCourse/Core/Explore/ExploreViewModel.swift 2>/dev/null | wc -l)",
+      "Bash(git -C /Users/jihoonan/Desktop/AIChatCource show 378e0cd:AIChatCourse/Core/Explore/ExploreViewModel.swift 2>/dev/null | tail -100)",
+      "Bash(git -C /Users/jihoonan/Desktop/AIChatCource show 378e0cd:AIChatCourse/Core/Explore/ExploreViewModel.swift 2>/dev/null | sed -n '80,170p')"
+    ]
+  }
+}
